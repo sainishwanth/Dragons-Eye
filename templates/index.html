@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dragon's Eye Chat</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="{{ logo_url }}" alt="Dragon's Eye Logo" class="logo">
+        Dragon's Eye
+    </header>
+    
+    <div class="ai-dungeon-master">
+        Interactive AI Dungeon Master
+    </div>
+
+    <div class="chat-container" id="chat-container">
+        <div class="chat-log" id="chat-log">
+        </div>
+        <div class="user-input">
+            <input type="text" id="user-message" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>
